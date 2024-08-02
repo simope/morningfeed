@@ -7,7 +7,7 @@ def create_html_page(news_list):
 <html>
     <style>
         .page {
-            font-family:  "Courier New";
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             background-color: #e6f0dc;
             border-radius: 10px;
             width: 70%;
@@ -22,6 +22,8 @@ def create_html_page(news_list):
             height: 70;
             padding: 5;
             border-radius: 10px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
 
         .card-wrapper {
@@ -34,26 +36,27 @@ def create_html_page(news_list):
             border-radius: 10px;
             width: 90%;
             margin: auto;
-        }
-
-        .linkbutton {
-            flex: 0 0 20%;
-            font-size: 40;
-            margin: auto;
+            padding: 20px;
         }
 
         .text {
             flex: 0 0 80%;
-            padding: 20;
-            width: 70%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .linkbutton {
+            flex: 0 0 20%;
+            text-align: center;
+            margin: auto;
         }
 
         a {
             text-decoration: none;
+            margin: auto;
         }
 
         img {
-            width: 25%
+            width: 50px;
         }
     </style>
     
